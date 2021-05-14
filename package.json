@@ -1,0 +1,20 @@
+{
+  "name": "cards-against-humanity-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Niku Grönberg",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^9.0.2",
+    "nodemon": "^2.0.7"
+  }
+}
